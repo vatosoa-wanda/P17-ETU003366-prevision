@@ -1,0 +1,66 @@
+/* Fond général de la page */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur du formulaire */
+form {
+    background-color: white;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style des champs de saisie */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 10px;
+    font-weight: bold;
+    color: #6c7a89;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+}
+
+/* Bouton Ajouter */
+button {
+    background-color: #cacaca;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Lien vers la liste des employés */
+div a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+

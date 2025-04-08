@@ -1,0 +1,27 @@
+-ligne de credit
+    libelle -> 
+    montant ->
+
+-ligne de depense 
+    libelle (liste deroulante)
+    montant 
+    date (optionnel)
+
+NB: check if(reste<depense(montant))  , annule (rollback)
+
+-Dashboard
+    ligne de credit         montant         reste
+ex:  frais bus              3000
+
+
+172.80.244.223
+
+JXxcy7s2
+
+ETU003366_tomcat
+
+172.80.237.53
+
+
+file Add local repository
+commit 
