@@ -182,7 +182,7 @@ public class Credit extends BaseObject  {
                 reste = credit.getResteById();
             }
 
-            if (reste < montant  || reste!=0) {
+            if (reste < montant) {
                 throw new SQLException("Solde insuffisant");
             }
 
